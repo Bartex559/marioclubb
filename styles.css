@@ -104,7 +104,7 @@ body{
     justify-content: space-evenly;
   }
   .game-images img{
-    width: 43vw;
+    width: 43vmax;
   }
   .join-today-box{
     background-color: rgba(243, 243, 243, 255);
