@@ -1,145 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-body{
-    font-family: 'Roboto', sans-serif;
-}
+
 .club_background{
-    background-color: rgb(244, 51, 57);
+    background-color: red;
     text-align: center;
-   }
+    height: 70px;
+    padding-bottom: 100px;
+    width: 1929px;
+   
+}
 .mario_club{
-    display: inline-flex;
+    display: inline-block;
     color: white;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 5vh;
-    padding: 1vh 2vh 1vh 2vh;
+    font-size: 50px;
+    padding: 5px 15px 5px 15px; 
     border-style: solid;
-    border-width:1vh;
+    border-width: 10px;
     border-color: white;
     border-radius: 110px;
 }
-.welcome{
+.welcome_conatiner{
     position: relative;
-    text-align: center;
-    
+  text-align: center;
+  color: white;
 }
-.banner{
-    width: 100%;
-   }
-
-.welcome-background{
-    position: absolute;
-    bottom: 30%;
-    background-color: #ffae00;
-    height: auto;
-    text-align: left;
-    padding: 2% ;
-    max-width: 40%;
-    max-height: 40%;;
-
+.welcome_text{
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
-.welcome-text{
-    color:white;
-    font-size: 7.2vw;
-   
-}
-
-#space::after{
-    content: "\a";
-    white-space: pre;
-}
-
-  .navbutton {
-    outline: none;
-    border: 0;
-    background: none; 
-    width: 20vw;
-    font-family: 'Roboto', sans-serif;
-    
-    
-  }
-  
-  .flex-container {
-    display: flex ;
-    justify-content: space-evenly;
-    height: 6vh;
-    background-color: rgba(243, 243, 243, 255);   
-    list-style-type: none;       
-    margin-top: -4px;
-    padding-top: 1%;
-    padding-left: 0;
-   }
-
-  .nav-link:link {
-    font-size: 1.5vw;
-    text-decoration: none;
-    color: #4d4d4e; 
-    
-  }
- .list_item{
-    display: block;
-        
- }
-  .nav-link:visited{
-    color: #4d4d4e;
-  }
-  
-  .nav-link:hover {
-    color: rgb(244, 51, 57);
-  }
-  h1 {
-    color: red;
-    margin-left: 2vmax;
-    
-  }
-  .main-text {
-    margin-left: 2vmax;
-    margin-right: 2vmax;
-    font-size: 2vh;
-    line-height: 150%;
-  }
-  .bold p::first-line{ 
-    font-weight: bold;
-  }
-  .game-images{
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .game-images img{
-    width: 43vmax;
-  }
-  .join-today-box{
-    background-color: rgba(243, 243, 243, 255);
-    height: 35.5vh;
-    
-  }
-  .join-today-text{
-    font-size: xx-large;
-    text-align: center;
-    padding-top: 130px;
-  }
-  .join-today-lorem{
-    text-align: center;
-    font-size: large;
-  }
-  .join-today-textarea{
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: xx-large;
-  }
-  .footer-box{
-    background-color: rgb(244, 51, 57);
-    height: 9vh;
-    color: #fff;
-  
-  }
-  .footer-textbox{
-    text-align: center;
-    padding-top: 1.2vh;
-  
-    
-  }
-  .copyrights{
-    text-align: center;
-  }
