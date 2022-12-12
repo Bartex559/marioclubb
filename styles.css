@@ -143,13 +143,3 @@ body{
   .copyrights{
     text-align: center;
   }
-@media screen and (max-width: 1080px) {
-  .game-images img{
-    width: 34vw;
-  }
-  .footer-box{
-    background-color: rgb(96, 244, 51);
-    height: 9vh;
-    color: #fff;
-}
-}
