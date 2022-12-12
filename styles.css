@@ -123,8 +123,8 @@ body{
   .join-today-textarea{
     display: block;
     text-align: center;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     font-size: 2rem;
     max-width: 100%;
   }
@@ -143,5 +143,13 @@ body{
   .copyrights{
     text-align: center;
   }
-
+@media screen and (max-width: 1080px) {
+  .game-images img{
+    width: 34vw;
+  }
+  .footer-box{
+    background-color: rgb(96, 244, 51);
+    height: 9vh;
+    color: #fff;
+}
   
