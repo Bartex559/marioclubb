@@ -143,3 +143,9 @@ body{
   .copyrights{
     text-align: center;
   }
+@media screen and(max-width:900px) {
+  .game-images img{
+    width: 34vw;
+  }
+  
+}
